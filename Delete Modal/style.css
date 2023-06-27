@@ -18,7 +18,10 @@
 	text-align: center;
 	display: none;
 	margin: auto;
-	background-color: grey;
+	background-color: #aaaaaa;
+	min-height: 20%;
+	padding: 20px;
+	padding-bottom: 50px;
 }
 
 .delete {
@@ -28,13 +31,32 @@
 
 button {
 	text-align: center;
-	
+	cursor: pointer;
 }
 
 .modal-button {
 	min-width: 50%;
+	border-radius: 0px;
+	border: none;
+}
+
+.can{
+	padding: 20px 0px;
+	padding-left: 5px;
+	background-color: #D3D3D3;
 }
 
 .del {
+	padding: 20px 0px;
+	padding-right: 5px;
 	float: right;
+	background-color: #F44336;
+}
+
+.can:hover{
+	background-color: #939393;
+}
+
+.del:hover{
+	background-color:red;
 }
