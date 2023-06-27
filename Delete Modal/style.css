@@ -1,5 +1,5 @@
 .openmodal {
-	background-color: rgba(0,0,0,0.7);
+	background-color: rgb(0,135,131);
 	padding: 20px 40px;
 	color: white;
 	text-align: center;
@@ -15,27 +15,26 @@
 }
 
 .modal {
-	margin: auto;
-	width: 50%;
-	position: auto;
+	text-align: center;
 	display: none;
+	margin: auto;
+	background-color: grey;
 }
 
-.modal-header {
-	font-size: 30px;
+.delete {
+	font-size: 50px;
+	font-weight: 400;
 }
 
-.modal-center {
-	padding: 1px 20px;
-}
-
-.modal-end {
-	background-color: #F44336;
-	padding: 1px 20px;
-	color: white;
+button {
+	text-align: center;
 	
 }
 
-.modal-footer {
-	
+.modal-button {
+	min-width: 50%;
+}
+
+.del {
+	float: right;
 }
