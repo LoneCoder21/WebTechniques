@@ -1,0 +1,17 @@
+.text {
+	color: white;
+	background-color: grey;
+	padding: 18px;
+	margin: auto;
+	cursor: pointer;
+	font-size: 20px;
+}
+
+.text:hover, .factive {
+	background-color: #333333;
+}
+
+.content {
+	padding: 0px 10px;
+	display: none;
+}
