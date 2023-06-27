@@ -5,7 +5,7 @@ h1 {
 
 p {
 	font-size: 30px;
-	padding: 50px 100px;
+	padding: 0px 100px;
 }
 
 .scroll {
@@ -20,14 +20,26 @@ p {
 	position: fixed;
 	float: left;
 	width: 50%;
-	height: 20px;
+	height: 30px;
 	background-color: green;
 	z-index: 1;
 }
 
 .remain{
-	background-color:grey;
+	background-color: grey;
 	position: fixed;
 	width: 100%;
-	height: 20px;
+	height: 30px;
+}
+
+.progress-text{
+	margin: auto;
+	padding: 0px;
+	padding-right: 10px;
+	color: black;
+	font-size: 20px;
+	z-index: 2;
+	float:right;
+	left:0;
+	right:0;
 }
