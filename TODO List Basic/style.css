@@ -1,0 +1,56 @@
+h3 {
+	padding: 0;
+	margin: 0;
+	padding-bottom: 10px;
+	color: white;
+	font-size:30px;
+}
+
+button{
+	cursor:pointer;
+}
+
+.todoheader {
+	width: 80%;
+	margin: auto;
+	padding: 20px;
+	text-align:center;
+	background-color: red;
+}
+
+#fname {
+	border: none;
+	height: 50px;
+	width:70%;
+}
+
+.add {
+	background-color: #aaaaaa;
+	height: 50px;
+	display: inline-block;
+	width: 20%;
+	border:none;
+}
+
+button:hover{
+	background-color: #999999;
+}
+
+.todolist{
+	width: 80%;
+	margin: auto;
+	text-align: center;
+}
+
+.listitem{
+	text-align:left;
+	width: 100%;
+	padding: 20px;
+	border:none;
+}
+
+.marked {
+	background-color: grey;
+	color:white;
+	text-decoration: line-through;
+}
