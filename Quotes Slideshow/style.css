@@ -1,0 +1,56 @@
+img {
+	width: 5%;
+	border-style: solid;
+	border-width: 1px;
+	display:inline;
+	aspect-ratio:1;
+	height: 40%;
+}
+
+body{
+	margin: 0px;
+}
+
+img:hover {
+	filter: invert(75%);
+	cursor: pointer;
+}
+
+.quotes{
+	display: flex;
+	align-items: center;
+}
+
+.quotesection{
+	display: none;
+}
+
+.quote{
+	display: flex;
+	justify-content: space-evenly;
+	background-color:#dddddd;
+	height: 200px;
+	align-items:center;
+}
+
+.active{
+	display: block;
+}
+
+.Left{
+	transform: rotate(180deg);
+}
+
+.quotemessage{
+	font-style:italic;
+}
+
+.author{
+	display: block;
+	text-align:center;
+}
+
+.bottom{
+	background-color:grey;
+	height: 50px;
+}
