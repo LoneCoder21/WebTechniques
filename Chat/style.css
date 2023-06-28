@@ -1,0 +1,47 @@
+img {
+	width: 5%;
+	display: inline-block;
+	border-radius: 50%;
+	aspect-ratio: 1;
+}
+
+p{
+	font-size: 26px;
+	display: inline-block;
+}
+
+.text{
+	margin: 30px;
+}
+
+.message {
+	padding: 10px 30px;
+	margin: 10px;
+}
+
+.sender {
+	background-color: #B0B0B0;
+}
+
+.receiver {
+	background-color: #909090;
+}
+
+.time {
+	display: block;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.message div {
+	display: flex;
+	align-items: center;
+}
+
+.receiver div{
+	justify-content:end;
+}
+
+.sender .time {
+	text-align: right;
+}
