@@ -1,0 +1,34 @@
+body{
+	display:flex;
+	justify-content:center;
+}
+
+
+button {
+	width: 50%;
+	margin: 10px;
+	background-color: black;
+	color: white;
+	width: 50%;
+	border:none;
+	height: 100px;
+	cursor:pointer;
+}
+
+button:hover{
+	background-color: grey;
+}
+
+.notification {
+	display: none;
+	position: fixed;
+	bottom: 0;
+	background-color: black;
+	color: white;
+	width: 50%;
+	padding: 20px;
+	margin: 40px;
+	font-size:30px;
+	border-radius: 10px;
+	text-align: center;
+}
