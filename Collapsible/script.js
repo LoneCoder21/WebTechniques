@@ -1,9 +1,9 @@
-document.querySelector(".text").addEventListener("click",()=>{
+document.querySelector(".text").addEventListener("click", () => {
 	let cstyle = document.querySelector(".content").style;
-	
-	if(cstyle.display === "none") {
+
+	if (cstyle.display === "none") {
 		cstyle.display = "block";
-	}else{
+	} else {
 		cstyle.display = "none";
 	}
 });

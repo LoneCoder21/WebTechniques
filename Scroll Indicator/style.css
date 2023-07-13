@@ -16,7 +16,7 @@ p {
 	background-color: #f1f1f1;
 }
 
-.progress{
+.progress {
 	position: fixed;
 	float: left;
 	width: 50%;
@@ -25,21 +25,21 @@ p {
 	z-index: 1;
 }
 
-.remain{
+.remain {
 	background-color: grey;
 	position: fixed;
 	width: 100%;
 	height: 30px;
 }
 
-.progress-text{
+.progress-text {
 	margin: auto;
 	padding: 0px;
 	padding-right: 10px;
 	color: black;
 	font-size: 20px;
 	z-index: 2;
-	float:right;
-	left:0;
-	right:0;
+	float: right;
+	left: 0;
+	right: 0;
 }

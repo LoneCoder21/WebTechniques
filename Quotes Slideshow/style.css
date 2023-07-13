@@ -2,12 +2,12 @@ img {
 	width: 5%;
 	border-style: solid;
 	border-width: 1px;
-	display:inline;
-	aspect-ratio:1;
+	display: inline;
+	aspect-ratio: 1;
 	height: 40%;
 }
 
-body{
+body {
 	margin: 0px;
 }
 
@@ -16,41 +16,41 @@ img:hover {
 	cursor: pointer;
 }
 
-.quotes{
+.quotes {
 	display: flex;
 	align-items: center;
 }
 
-.quotesection{
+.quotesection {
 	display: none;
 }
 
-.quote{
+.quote {
 	display: flex;
 	justify-content: space-evenly;
-	background-color:#dddddd;
+	background-color: #dddddd;
 	height: 200px;
-	align-items:center;
+	align-items: center;
 }
 
-.active{
+.active {
 	display: block;
 }
 
-.Left{
+.Left {
 	transform: rotate(180deg);
 }
 
-.quotemessage{
-	font-style:italic;
+.quotemessage {
+	font-style: italic;
 }
 
-.author{
+.author {
 	display: block;
-	text-align:center;
+	text-align: center;
 }
 
-.bottom{
-	background-color:grey;
+.bottom {
+	background-color: grey;
 	height: 50px;
 }

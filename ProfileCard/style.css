@@ -1,8 +1,9 @@
-body{
-	display:flex;
-	justify-content:center;
+body {
+	display: flex;
+	justify-content: center;
 }
-div{
+
+div {
 	text-align: center;
 	width: 50%;
 	box-shadow: 10px 5px 5px grey;
@@ -12,25 +13,25 @@ h3 {
 	color: grey;
 }
 
-.fa{
+.fa {
 	text-decoration: none;
-	color:black;
+	color: black;
 	padding-bottom: 20px;
 }
 
-.fa:hover{
-	color:grey;
+.fa:hover {
+	color: grey;
 }
 
 button {
-	background-color:black;
+	background-color: black;
 	color: white;
 	width: 100%;
 	padding: 10px;
-	border:none;
+	border: none;
 	cursor: pointer;
 }
 
-button:hover{
-	background-color:grey;
+button:hover {
+	background-color: grey;
 }

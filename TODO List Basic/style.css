@@ -3,25 +3,25 @@ h3 {
 	margin: 0;
 	padding-bottom: 10px;
 	color: white;
-	font-size:30px;
+	font-size: 30px;
 }
 
-button{
-	cursor:pointer;
+button {
+	cursor: pointer;
 }
 
 .todoheader {
 	width: 80%;
 	margin: auto;
 	padding: 20px;
-	text-align:center;
+	text-align: center;
 	background-color: red;
 }
 
 #fname {
 	border: none;
 	height: 50px;
-	width:70%;
+	width: 70%;
 }
 
 .add {
@@ -29,28 +29,28 @@ button{
 	height: 50px;
 	display: inline-block;
 	width: 20%;
-	border:none;
+	border: none;
 }
 
-button:hover{
+button:hover {
 	background-color: #999999;
 }
 
-.todolist{
+.todolist {
 	width: 80%;
 	margin: auto;
 	text-align: center;
 }
 
-.listitem{
-	text-align:left;
+.listitem {
+	text-align: left;
 	width: 100%;
 	padding: 20px;
-	border:none;
+	border: none;
 }
 
 .marked {
 	background-color: grey;
-	color:white;
+	color: white;
 	text-decoration: line-through;
 }

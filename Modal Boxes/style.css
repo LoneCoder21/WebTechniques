@@ -1,5 +1,5 @@
 .openmodal {
-	background-color: rgba(0,0,0,0.7);
+	background-color: rgba(0, 0, 0, 0.7);
 	padding: 20px 40px;
 	color: white;
 	text-align: center;
@@ -33,9 +33,7 @@
 	background-color: #F44336;
 	padding: 1px 20px;
 	color: white;
-	
+
 }
 
-.modal-footer {
-	
-}
+.modal-footer {}

@@ -9,10 +9,11 @@
 }
 
 html {
-	color:white;
+	color: white;
 }
 
-.CardContainer h1,h4 {
+.CardContainer h1,
+h4 {
 	width: 45%;
 	margin: 0;
 	padding: 0;
@@ -30,15 +31,13 @@ img {
 	bottom: 30px;
 }
 
-.backgradient {
-	
-}
+.backgradient {}
 
 .CardContainer:hover {
 	background: linear-gradient(to left top, yellow, #720e9e 60%);
-	opacity:1.0;
+	opacity: 1.0;
 }
 
-.CardContainer:hover h4{
+.CardContainer:hover h4 {
 	display: block;
 }

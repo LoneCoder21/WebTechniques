@@ -1,7 +1,7 @@
-document.querySelector(".notify").addEventListener("click",()=>{
+document.querySelector(".notify").addEventListener("click", () => {
 	let notification = document.querySelector(".notification").style;
 	notification.display = "block";
-	setTimeout(()=>{
+	setTimeout(() => {
 		notification.display = "none";
-	},3000);
+	}, 3000);
 });

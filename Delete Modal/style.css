@@ -1,5 +1,5 @@
 .openmodal {
-	background-color: rgb(0,135,131);
+	background-color: rgb(0, 135, 131);
 	padding: 20px 40px;
 	color: white;
 	text-align: center;
@@ -40,7 +40,7 @@ button {
 	border: none;
 }
 
-.can{
+.can {
 	padding: 20px 0px;
 	padding-left: 5px;
 	background-color: #D3D3D3;
@@ -53,10 +53,10 @@ button {
 	background-color: #F44336;
 }
 
-.can:hover{
+.can:hover {
 	background-color: #939393;
 }
 
-.del:hover{
-	background-color:red;
+.del:hover {
+	background-color: red;
 }
